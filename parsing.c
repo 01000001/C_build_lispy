@@ -6,6 +6,8 @@ There are actually two ways to include files in C. One is using angular brackets
 The only difference between the two is that using angular brackets searches the system locations for headers first, while quotation marks searches the current directory first. Because of this system headers such as <stdio.h> are typically put in angular brackets, while local headers such as "mpc.h" are typically put in quotation marks.
 */
 
+/* Building Lispy with C*/
+
 /* If we are compiling on Windows compile these functions */
 #ifdef _WIN32
 
