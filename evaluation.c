@@ -65,6 +65,13 @@ long eval(mpc_ast_t* t) {
 	return x;
 }
 
+/* Declare New lval Struct */
+typedef struct {
+	int type;
+	long num;
+	int err;
+} lval;
+
 int main(int argc, char** argv) {
   
   /* Create Some Parsers*/
